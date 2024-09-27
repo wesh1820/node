@@ -21,7 +21,7 @@ const app = express()
 const port = 3000
 
 app.get('/', (req, res) => {
-  res.send('GET messages!')
+  res.send('GET messagess!')
 })
 
 app.listen(port, () => {
